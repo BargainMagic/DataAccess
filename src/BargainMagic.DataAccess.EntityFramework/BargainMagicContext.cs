@@ -22,5 +22,11 @@ namespace BargainMagic.DataAccess.EntityFramework
         {
             optionsBuilder.UseSqlite($"Data Source={DatabasePath}");
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<SeasonCardCost>()
+                        .HasKey(scc => new { scc.SeasonId, scc.CardId });
+        }
     }
 }
