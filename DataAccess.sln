@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargainMagic.DataAccess.Abstractions", "src\BargainMagic.DataAccess.Abstractions\BargainMagic.DataAccess.Abstractions.csproj", "{616F399A-A8D6-4EE2-9B78-315DCD61B721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargainMagic.DataAccess.EntityFramework", "BargainMagic.DataAccess.EntityFramework\BargainMagic.DataAccess.EntityFramework.csproj", "{A73CE8F8-4EC3-4014-A445-A16142D8AADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BargainMagic.DataAccess.EntityFramework", "src\BargainMagic.DataAccess.EntityFramework\BargainMagic.DataAccess.EntityFramework.csproj", "{2657033C-941B-489C-AF67-735B761E8CCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2657033C-941B-489C-AF67-735B761E8CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2657033C-941B-489C-AF67-735B761E8CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2657033C-941B-489C-AF67-735B761E8CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2657033C-941B-489C-AF67-735B761E8CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

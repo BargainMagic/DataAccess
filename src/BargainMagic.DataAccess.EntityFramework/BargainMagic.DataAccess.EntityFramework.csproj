@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\BargainMagic.DataAccess.Abstractions\BargainMagic.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\BargainMagic.DataAccess.Abstractions\BargainMagic.DataAccess.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
