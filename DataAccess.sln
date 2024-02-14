@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargainMagic.DataAccess.Abstractions", "src\BargainMagic.DataAccess.Abstractions\BargainMagic.DataAccess.Abstractions.csproj", "{616F399A-A8D6-4EE2-9B78-315DCD61B721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BargainMagic.DataAccess.EntityFramework", "BargainMagic.DataAccess.EntityFramework\BargainMagic.DataAccess.EntityFramework.csproj", "{A73CE8F8-4EC3-4014-A445-A16142D8AADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616F399A-A8D6-4EE2-9B78-315DCD61B721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73CE8F8-4EC3-4014-A445-A16142D8AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {336ACAE8-C646-45CE-B6A7-4679834AA24C}
 	EndGlobalSection
 EndGlobal
