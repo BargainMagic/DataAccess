@@ -5,6 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Version>0.0.1</Version>
+    <Authors />
+    <Company>BargainMagic</Company>
   </PropertyGroup>
 
 </Project>
