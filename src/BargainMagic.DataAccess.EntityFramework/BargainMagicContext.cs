@@ -17,5 +17,10 @@ namespace BargainMagic.DataAccess.EntityFramework
             var applicationDirectory = Directory.GetCurrentDirectory();
             this.DatabasePath = Path.Join(applicationDirectory, "bargainmagic.db");
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite($"Data Source={DatabasePath}");
+        }
     }
 }
