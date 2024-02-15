@@ -37,6 +37,6 @@ jobs:
       run: dotnet pack --no-build --verbosity normal
 
     - name: Publish
-      run: dotnet nuget push "*.nupkg" -k ${ secrets.GITHUB_TOKEN }} -s "https://nuget.pkg.github.com/BargainMagic/index.json"
+      run: dotnet nuget push "*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s "https://nuget.pkg.github.com/BargainMagic/index.json"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
